@@ -20,7 +20,9 @@ const contaAsHoras = setInterval(function() {
     if (distanciaDoAnivesario < 0) {
         clearInterval(contaAsHoras);
         document.getElementById('time').innerHTML = `Esquecero no niver do mlk KKKKKK`
+        document.getElementById('time-2').innerHTML = `Esquecero no niver do mlk KKKKKK`
     } else {
         document.getElementById('time').innerHTML = `${diasAteOAniversario}d ${horasAteOAnivesario}h ${minutosAteOAnivesario}m ${segundoAteOAnivesario}s`
+        document.getElementById('time-2').innerHTML = `${diasAteOAniversario}d ${horasAteOAnivesario}h ${minutosAteOAnivesario}m ${segundoAteOAnivesario}s`
     }
 }, 1000)

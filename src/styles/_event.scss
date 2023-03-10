@@ -1,0 +1,31 @@
+.event {
+    display: flex;
+    justify-content: center;
+    margin-top: 48px;
+    &__image{
+
+    }
+
+    &__text {
+
+        &__tittle{
+            font-family: Roboto, sans-serif;
+            color: red;
+            text-align: center;
+            font-size: 32px;
+            margin-bottom: 60px;
+        }
+
+        &__item{
+            font-family: Roboto, sans-serif;
+            color: red;
+            text-align: center;
+            font-size: 24px;
+            font-weight: bold;
+
+            span {
+                font-family: Roboto, sans-serif;
+            }
+        }
+    }
+}
