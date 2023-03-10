@@ -1,0 +1,21 @@
+@use 'variaveis';
+@use 'hero';
+
+@font-face {
+    font-family: DIGI;
+    src: url(../../assets/fonts/DS-DIGIB.TTF);
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: DIGI, sans-serif;
+}
+
+body {
+    background-image: url(../images/BG-dust2.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    
+}

@@ -1,0 +1,41 @@
+@use 'variaveis';
+
+.hero {
+    max-width: 1024px;
+    width: 100%;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 100vh;
+    justify-content: center;
+    position: relative;
+    &__image{
+        height: 100%;        
+    }
+    &__tittle {
+        position: absolute;
+        top: 20;
+        color: red;
+        font-family: DIGI, sans-serif;
+        text-align: center;
+        font-size: 64px;
+        padding-bottom: 80px;
+    }
+
+    &__time {
+        position: absolute;
+        top: 28.40vh;
+        right:  25.69vw;
+        color: black;       
+        text-align: center;
+        font-size: 32px;
+        animation: texto-piscando 1s linear infinite;
+    }
+}
+
+
+@keyframes texto-piscando {
+    0% { opacity: 0; }
+    100% { opacity: 1; }
+}
